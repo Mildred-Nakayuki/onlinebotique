@@ -1,22 +1,22 @@
-import DressOne from '../images/Dresses/DressOne.jpg'
-import DressTwo from '../images/Dresses/DressTwo.jpg'
-import DressThree from '../images/Dresses/DressThree.jpg'
-import DressFour from '../images/Dresses/DressFour.jpg'
-import DressFive from '../images/Dresses/DressFive.jpg'
-import DressSix from '../images/Dresses/DressSix.jpg'
-import DressSeven from '../images/Dresses/DressSeven.jpg'
-import DressEight from '../images/Dresses/DressEight.jpg'
-import BusinessSuits from '../images/Formal/BusinessSuits.jpg'
-import GreyBlazer from '../images/Formal/GreyBlazer.jpg'
-import OfficeUniform from '../images/Formal/OfficeUniform.jpg'
-import Waistcoat from '../images/Formal/Waistcoat.jpg'
-import WomenShirts from '../images/Formal/WomenShirts.jpg'
-import WorkWearDress from '../images/Formal/WorkWearDress.jpg'
-import Blackjean from '../images/jeans/Blackjean.jpg'
-import Bluejean from '../images/jeans/Bluejean.jpg'
-import Floraljean from '../images/jeans/Floraljean.jpg'
-import Greenjean from '../images/jeans/Greenjean.jpg'
-import Whitejean from '../images/jeans/Whitejean.jpg'
+import DressOne from '../images/dresses/DressOne.jpg'
+import DressTwo from '../images/dresses/DressTwo.jpg'
+import DressThree from '../images/dresses/DressThree.jpg'
+import DressFour from '../images/dresses/DressFour.jpg'
+import DressFive from '../images/dresses/DressFive.jpg'
+import DressSix from '../images/dresses/DressSix.jpg'
+import DressSeven from '../images/dresses/DressSeven.jpg'
+import DressEight from '../images/dresses/DressEight.jpg'
+import BusinessSuits from '../images/formal/BusinessSuits.jpg'
+import GreyBlazer from '../images/formal/GreyBlazer.jpg'
+import OfficeUniform from '../images/formal/OfficeUniform.jpg'
+import Waistcoat from '../images/formal/Waistcoat.jpg'
+import WomenShirts from '../images/formal/WomenShirts.jpg'
+import WorkWearDress from '../images/formal/WorkWearDress.jpg'
+import Blackjean from '../images/jeans/BlackJean.jpg'
+import Bluejean from '../images/jeans/BlueJean.jpg'
+import Floraljean from '../images/jeans/FloralJean.jpg'
+import Greenjean from '../images/jeans/GreenJean.jpg'
+import Whitejean from '../images/jeans/whiteJean.jpg'
 import BlackSkirt from '../images/skirts/BlackSkirt.jpg'
 import BlueSkirt from '../images/skirts/BlueSkirt.jpg'
 import CheckedSkirt from '../images/skirts/CheckedSkirt.jpg'
@@ -32,7 +32,7 @@ import OrangeTop from '../images/tops/OrangeTop.jpg'
 import PinkTop from '../images/tops/PinkTop.jpg'
 
 
-export const data = [
+ const data = [
     {
     "id": 1,
     "category":"Dresses",
@@ -181,7 +181,7 @@ export const data = [
     "id": 19,
     "category":"jeans",
     "product": "Pairjean",
-    "image": Pairjean,
+    "image": Floraljean,
     "desc": "Blue & Grey, Long, Low waist",
     "price": 70000,
   },
@@ -298,3 +298,5 @@ export const data = [
     "price": 55000,
   },
 ]
+
+export default data
