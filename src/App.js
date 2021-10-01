@@ -15,11 +15,10 @@ const items = [
 function App() {
   return (
     <div className="App">
-      <Home/>
       <Nav/>
-      <Footer/>
+      <Home/>
       <Sidebar items={items}/>
-     
+      <Footer/>
     </div>
   );
 }

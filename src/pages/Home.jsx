@@ -1,12 +1,26 @@
-import React from 'react'
-// import Card from '../components/Card'
+
+import {useState,useEffect} from 'react'
+import Card from '../components/Card'
+import Data from "../Library/stock"
 
 
 function Home() {
+const [data,setData]= useState(Data)
+  
     return (
         <div className="Home">
-          <h1>Home</h1>  
+           {
+             data.map(item =>(
+               <>
+<div className="titles">{item.category}</div>
+           <div className="body">
+    <Card data={item}/>
         </div>
+        </>
+             ))
+             
+             }
+           </div>         
     )
 }
 
