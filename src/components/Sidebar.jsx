@@ -9,7 +9,6 @@ function Sidebar({ items }) {
 
   const handleCheckbox = (e) => {
     const checked = e.target.checked;
-    console.log({ value: e.target.value, checked });
     // if checked is true, then filterData will be called with the value of the checkbox
     // if checked is false, then filterData will be called with an empty string
     filterData(checked ? e.target.value : "all");

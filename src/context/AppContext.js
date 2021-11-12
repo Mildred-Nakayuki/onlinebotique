@@ -18,6 +18,8 @@ export function AppContextProvider({ children }) {
   const filterData = (category) => {
       console.log(category);
     let newData = Data.filter((item) => item.category.toLocaleLowerCase() === category.toLocaleLowerCase());
+    
+    //if category is not selected then show all data otherwise show filtered data
     category === "all" ? setData(Data) : setData(newData);
   };
 
