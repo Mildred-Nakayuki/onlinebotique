@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 
 function Card({ data }) {
@@ -5,12 +6,12 @@ function Card({ data }) {
 <div className="col-md-4 product-men">
   <div className="product-shoe-info shoe text-center">
     <div className="men-thumb-item">
-      <img src={data.image} className="img-fluid" alt={data.title} />
+      <img src={data.image} className="img-fluid" alt={data.product} />
       <span className="product-new-top">New</span>
     </div>
     <div className="item-info-product">
       <h4>
-        <a href="/">{data.title}</a>
+        <a href="/">{data.product}</a>
       </h4>
 
       <div className="product_price">

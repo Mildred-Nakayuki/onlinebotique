@@ -1,3 +1,4 @@
+/* eslint-disable no-sparse-arrays */
 import DressOne from "../images/dresses/DressOne.jpg";
 import DressTwo from "../images/dresses/DressTwo.jpg";
 import DressThree from "../images/dresses/DressThree.jpg";
